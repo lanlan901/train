@@ -8,14 +8,19 @@
 		<version>3.2.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.example</groupId>
+	<groupId>com.lan.train</groupId>
 	<artifactId>train</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>train</name>
 	<description>train</description>
+	<packaging>pom</packaging>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
+		<mybatis.spring>2.2.0</mybatis.spring>
+		<lombok>1.18.20</lombok>
+		<fastjson>1.2.76</fastjson>
+		<hutool-all>5.8.27</hutool-all>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -26,6 +31,19 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>fastjson</artifactId>
+				<version>${fastjson}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>cn.hutool</groupId>
+				<artifactId>hutool-all</artifactId>
+				<version>${hutool-all}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
