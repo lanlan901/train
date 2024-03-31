@@ -15,14 +15,24 @@
 	<name>train</name>
 	<description>train</description>
 	<packaging>pom</packaging>
+
+	<modules>
+		<module>member</module>
+		<module>common</module>
+		<module>req</module>
+		<module>gateway</module>
+		<module>generator</module>
+	</modules>
+
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
-		<mybatis.spring>2.2.0</mybatis.spring>
-		<lombok>1.18.20</lombok>
+		<mybatis.spring>3.0.3</mybatis.spring>
+		<lombok>1.18.30</lombok>
 		<fastjson>1.2.76</fastjson>
 		<hutool-all>5.8.27</hutool-all>
 	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -45,8 +55,27 @@
 				<version>${hutool-all}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>com.lan.train</groupId>
+				<artifactId>common</artifactId>
+				<version>0.0.1</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.lan.train</groupId>
+				<artifactId>req</artifactId>
+				<version>0.0.1</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok}</version>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -71,20 +100,22 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>com.lan.train</groupId>
-			<artifactId>common</artifactId>
-			<version>0.0.1</version>
-		</dependency>
-
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.2.5</version>
 			</plugin>
 		</plugins>
 	</build>
