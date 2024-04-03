@@ -1,0 +1,1174 @@
+2024-04-02 13:54:58.351 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 13:54:58.396 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 29404 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 13:54:58.397 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 13:54:58.446 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 13:54:58.447 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 13:54:59.339 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8c1f6a53-1e31-3957-8e17-c64789327550
+2024-04-02 13:55:00.049 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 13:55:00.062 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 13:55:00.065 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 13:55:00.065 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 13:55:00.132 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 13:55:00.133 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1685 ms
+2024-04-02 13:55:01.115 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 13:55:02.357 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 13:55:02.417 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 13:55:02.442 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 13:55:03.670 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 13:55:03.683 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.048 seconds (process running for 7.66)
+2024-04-02 13:55:03.687 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 13:55:03.688 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 13:55:43.887 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 13:55:43.888 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 13:55:43.889 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 13:55:43.930 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712058943923ClF  [0;39m ------------- START -------------
+2024-04-02 13:55:43.932 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712058943923ClF  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2024-04-02 13:55:43.933 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712058943923ClF  [0;39m 类名方法: com.lan.train.member.controller.MemberController.count
+2024-04-02 13:55:43.933 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712058943923ClF  [0;39m 远程地址: 127.0.0.1
+2024-04-02 13:55:43.979 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712058943923ClF  [0;39m 请求参数: []
+2024-04-02 13:55:44.012 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712058943923ClF  [0;39m HikariPool-1 - Starting...
+2024-04-02 13:55:44.346 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712058943923ClF  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32accce
+2024-04-02 13:55:44.348 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712058943923ClF  [0;39m HikariPool-1 - Start completed.
+2024-04-02 13:55:44.356 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712058943923ClF  [0;39m ==>  Preparing: select count(*) from member
+2024-04-02 13:55:44.380 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712058943923ClF  [0;39m ==> Parameters: 
+2024-04-02 13:55:44.440 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712058943923ClF  [0;39m <==    Columns: count(*)
+2024-04-02 13:55:44.440 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712058943923ClF  [0;39m <==        Row: 3
+2024-04-02 13:55:44.443 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712058943923ClF  [0;39m <==      Total: 1
+2024-04-02 13:55:44.480 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712058943923ClF  [0;39m 返回结果：{"content":3,"success":true}
+2024-04-02 13:55:44.480 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712058943923ClF  [0;39m ------------- 结束 耗时：557 ms -------------
+2024-04-02 13:55:51.534 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：手机号码格式错误
+2024-04-02 13:55:51.536 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<java.lang.Long> com.lan.train.member.controller.MemberController.sendCode(com.lan.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [13000000000]; codes [Pattern.memberSendCodeReq.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@2f457e5e,^\d{10}$]; default message [手机号码格式错误]] ]
+2024-04-02 13:55:59.393 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：手机号码格式错误
+2024-04-02 13:55:59.394 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<java.lang.Long> com.lan.train.member.controller.MemberController.sendCode(com.lan.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [12312341235]; codes [Pattern.memberSendCodeReq.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@2f457e5e,^\d{10}$]; default message [手机号码格式错误]] ]
+2024-04-02 13:58:08.439 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 13:58:08.448 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 13:58:42.726 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 13:58:42.769 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 31964 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 13:58:42.770 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 13:58:42.816 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 13:58:42.817 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 13:58:43.608 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8c1f6a53-1e31-3957-8e17-c64789327550
+2024-04-02 13:58:44.222 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 13:58:44.235 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 13:58:44.237 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 13:58:44.237 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 13:58:44.294 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 13:58:44.294 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1477 ms
+2024-04-02 13:58:45.208 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 13:58:46.451 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 13:58:46.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 13:58:46.516 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 13:58:47.729 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 13:58:47.740 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 6.681 seconds (process running for 7.253)
+2024-04-02 13:58:47.744 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 13:58:47.745 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:02:16.234 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 14:02:16.235 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 14:02:16.237 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 14:02:16.425 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712059336411ot5  [0;39m ------------- START -------------
+2024-04-02 14:02:16.426 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712059336411ot5  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 14:02:16.426 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712059336411ot5  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 14:02:16.427 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712059336411ot5  [0;39m 远程地址: 127.0.0.1
+2024-04-02 14:02:16.550 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712059336411ot5  [0;39m 请求参数: [{"mobile":"12312341235"}]
+2024-04-02 14:02:16.654 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712059336411ot5  [0;39m HikariPool-1 - Starting...
+2024-04-02 14:02:17.084 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712059336411ot5  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3711f599
+2024-04-02 14:02:17.085 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712059336411ot5  [0;39m HikariPool-1 - Start completed.
+2024-04-02 14:02:17.093 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712059336411ot5  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 14:02:17.115 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712059336411ot5  [0;39m ==> Parameters: 12312341235(String)
+2024-04-02 14:02:17.154 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712059336411ot5  [0;39m <==    Columns: id, mobile
+2024-04-02 14:02:17.154 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712059336411ot5  [0;39m <==        Row: 1774526622129590272, 12312341235
+2024-04-02 14:02:17.155 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712059336411ot5  [0;39m <==      Total: 1
+2024-04-02 14:02:17.164 INFO  com.lan.train.member.MemberApplication     :66   [32m1712059336411ot5  [0;39m 手机号存在，不插入记录
+2024-04-02 14:02:17.164 INFO  com.lan.train.member.MemberApplication     :71   [32m1712059336411ot5  [0;39m 生成短信验证码：8888
+2024-04-02 14:02:17.165 INFO  com.lan.train.member.MemberApplication     :73   [32m1712059336411ot5  [0;39m 保存短信记录表
+2024-04-02 14:02:17.165 INFO  com.lan.train.member.MemberApplication     :75   [32m1712059336411ot5  [0;39m 对接短信通道
+2024-04-02 14:02:17.168 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712059336411ot5  [0;39m 返回结果：{"success":true}
+2024-04-02 14:02:17.168 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712059336411ot5  [0;39m ------------- 结束 耗时：757 ms -------------
+2024-04-02 14:17:03.866 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 11 class path changes (0 additions, 11 deletions, 0 modifications)
+2024-04-02 14:17:03.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:17:03.895 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 14:17:03.906 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 14:17:05.252 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 31964 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 14:17:05.253 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:17:05.539 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8c1f6a53-1e31-3957-8e17-c64789327550
+2024-04-02 14:17:05.644 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 14:17:05.645 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:17:05.646 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 14:17:05.646 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 14:17:05.662 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 14:17:05.662 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 407 ms
+2024-04-02 14:17:06.048 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 14:17:07.324 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:17:07.348 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:17:07.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 14:17:07.466 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 12 class path changes (12 additions, 0 deletions, 0 modifications)
+2024-04-02 14:17:08.573 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:17:08.577 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 4.626 seconds (process running for 1108.09)
+2024-04-02 14:17:08.578 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-04-02 14:17:08.579 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 14:17:08.579 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:44:19.223 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 14:44:19.262 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 23384 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 14:44:19.263 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:44:19.308 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 14:44:19.309 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 14:44:20.067 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 14:44:20.070 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 14:44:20.098 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-04-02 14:44:20.316 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 14:44:21.069 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 14:44:21.081 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:44:21.083 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 14:44:21.083 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 14:44:21.145 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 14:44:21.145 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1836 ms
+2024-04-02 14:44:21.678 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 14:44:22.489 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 14:44:23.721 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:44:23.774 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:44:23.793 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 14:44:25.002 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:44:25.014 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.469 seconds (process running for 8.021)
+2024-04-02 14:44:25.018 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 14:44:25.018 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:44:57.583 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 14:44:57.583 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 14:44:57.584 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 14:44:57.670 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2024-04-02 14:44:57.715 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<com.lan.train.member.resp.MemberLoginResp> com.lan.train.member.controller.MemberController.login(com.lan.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2024-04-02 14:50:38.940 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 14 class path changes (0 additions, 14 deletions, 0 modifications)
+2024-04-02 14:50:38.945 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:50:40.560 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 23384 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 14:50:40.561 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:50:41.188 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 14:50:41.188 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 14:50:41.199 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-04-02 14:50:41.326 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=f436bc56-9067-34d7-a94a-0e916b233dc2
+2024-04-02 14:50:41.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 14:50:41.574 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:50:41.575 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 14:50:41.575 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 14:50:41.610 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 14:50:41.610 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1045 ms
+2024-04-02 14:50:42.376 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 14:50:43.704 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:50:43.758 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:50:43.765 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 14:50:43.831 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 14 class path changes (14 additions, 0 deletions, 0 modifications)
+2024-04-02 14:50:45.249 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:50:45.256 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 6.199 seconds (process running for 388.263)
+2024-04-02 14:50:45.258 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:50:45.263 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   [32m                  [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) found a single bean 'redisConnectionFactory'; @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-04-02 14:50:45.263 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 14:50:45.264 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:50:46.869 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 23384 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 14:50:46.870 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:50:47.404 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 14:50:47.405 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 14:50:47.412 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-04-02 14:50:47.476 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 14:50:47.631 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 14:50:47.632 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:50:47.633 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 14:50:47.633 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 14:50:47.659 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 14:50:47.659 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 781 ms
+2024-04-02 14:50:47.843 INFO  com.lan.train.member.config.RedisConfiguration    :16   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 14:50:48.629 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 14:50:50.092 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:50:50.115 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:50:50.117 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 14:50:51.468 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:50:51.477 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 6.137 seconds (process running for 394.484)
+2024-04-02 14:50:51.480 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   [32m                  [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found beans named redisTemplate (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-04-02 14:50:51.482 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 14:50:51.482 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:51:38.464 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 14:51:38.510 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 1996 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 14:51:38.511 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:51:38.557 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 14:51:38.557 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 14:51:39.286 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 14:51:39.290 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 14:51:39.324 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-04-02 14:51:39.536 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 14:51:40.263 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 14:51:40.273 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:51:40.275 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 14:51:40.275 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 14:51:40.333 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 14:51:40.333 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1775 ms
+2024-04-02 14:51:40.864 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 14:51:41.657 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 14:51:42.891 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:51:42.938 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:51:42.956 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 14:51:44.183 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:51:44.195 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.395 seconds (process running for 7.913)
+2024-04-02 14:51:44.198 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 14:51:44.198 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:52:39.326 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 14:52:39.327 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 14:52:39.328 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 14:52:39.425 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：【手机号】不能为空
+2024-04-02 14:52:39.481 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<com.lan.train.member.resp.MemberLoginResp> com.lan.train.member.controller.MemberController.login(com.lan.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] ]
+2024-04-02 14:53:02.402 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712062382394z7K  [0;39m ------------- START -------------
+2024-04-02 14:53:02.403 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712062382394z7K  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2024-04-02 14:53:02.403 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712062382394z7K  [0;39m 类名方法: com.lan.train.member.controller.MemberController.count
+2024-04-02 14:53:02.403 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712062382394z7K  [0;39m 远程地址: 127.0.0.1
+2024-04-02 14:53:02.450 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712062382394z7K  [0;39m 请求参数: []
+2024-04-02 14:53:02.476 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712062382394z7K  [0;39m HikariPool-1 - Starting...
+2024-04-02 14:53:02.808 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712062382394z7K  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22cd9578
+2024-04-02 14:53:02.810 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712062382394z7K  [0;39m HikariPool-1 - Start completed.
+2024-04-02 14:53:02.818 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712062382394z7K  [0;39m ==>  Preparing: select count(*) from member
+2024-04-02 14:53:02.839 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712062382394z7K  [0;39m ==> Parameters: 
+2024-04-02 14:53:02.862 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712062382394z7K  [0;39m <==    Columns: count(*)
+2024-04-02 14:53:02.862 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712062382394z7K  [0;39m <==        Row: 3
+2024-04-02 14:53:02.864 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712062382394z7K  [0;39m <==      Total: 1
+2024-04-02 14:53:02.898 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712062382394z7K  [0;39m 返回结果：{"content":3,"success":true}
+2024-04-02 14:53:02.898 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712062382394z7K  [0;39m ------------- 结束 耗时：504 ms -------------
+2024-04-02 14:53:07.930 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712062387930St5  [0;39m ------------- START -------------
+2024-04-02 14:53:07.931 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712062387930St5  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 14:53:07.931 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712062387930St5  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 14:53:07.931 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712062387930St5  [0;39m 远程地址: 127.0.0.1
+2024-04-02 14:53:07.933 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712062387930St5  [0;39m 请求参数: [{"mobile":"12312341235"}]
+2024-04-02 14:53:07.949 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062387930St5  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 14:53:07.950 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062387930St5  [0;39m ==> Parameters: 12312341235(String)
+2024-04-02 14:53:07.951 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712062387930St5  [0;39m <==    Columns: id, mobile
+2024-04-02 14:53:07.952 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712062387930St5  [0;39m <==        Row: 1774526622129590272, 12312341235
+2024-04-02 14:53:07.952 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062387930St5  [0;39m <==      Total: 1
+2024-04-02 14:53:07.956 INFO  com.lan.train.member.MemberApplication     :77   [32m1712062387930St5  [0;39m 手机号存在，不插入记录
+2024-04-02 14:53:07.956 INFO  com.lan.train.member.MemberApplication     :82   [32m1712062387930St5  [0;39m 生成短信验证码：8888
+2024-04-02 14:53:07.956 ERROR c.l.t.common.controller.ControllerExceptionHandler:24   [32m1712062387930St5  [0;39m 系统异常：
+java.lang.NullPointerException: Cannot invoke "org.springframework.data.redis.core.RedisTemplate.opsForValue()" because "this.redisTemplate" is null
+	at com.lan.train.member.service.MemberService.sendCode(MemberService.java:83)
+	at com.lan.train.member.controller.MemberController.sendCode(MemberController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.lan.train.common.aspect.LogAspect.doAround(LogAspect.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at com.lan.train.member.controller.MemberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-02 14:53:07.960 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m1712062387930St5  [0;39m Resolved [java.lang.NullPointerException: Cannot invoke "org.springframework.data.redis.core.RedisTemplate.opsForValue()" because "this.redisTemplate" is null]
+2024-04-02 14:54:34.399 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 14:54:34.413 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 14:54:48.706 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 14:54:48.752 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 32088 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 14:54:48.753 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:54:48.798 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 14:54:48.798 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 14:54:49.493 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 14:54:49.496 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 14:54:49.523 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-04-02 14:54:49.723 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 14:54:50.430 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 14:54:50.442 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:54:50.444 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 14:54:50.444 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 14:54:50.500 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 14:54:50.501 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1702 ms
+2024-04-02 14:54:50.934 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 14:54:51.740 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 14:54:52.976 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:54:53.023 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 14:54:53.041 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 14:54:54.301 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 14:54:54.316 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.299 seconds (process running for 7.877)
+2024-04-02 14:54:54.320 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 14:54:54.320 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 14:55:31.647 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 14:55:31.648 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 14:55:31.649 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 14:55:31.695 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712062531682cyO  [0;39m ------------- START -------------
+2024-04-02 14:55:31.696 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712062531682cyO  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2024-04-02 14:55:31.696 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712062531682cyO  [0;39m 类名方法: com.lan.train.member.controller.MemberController.count
+2024-04-02 14:55:31.696 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712062531682cyO  [0;39m 远程地址: 127.0.0.1
+2024-04-02 14:55:31.734 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712062531682cyO  [0;39m 请求参数: []
+2024-04-02 14:55:31.766 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712062531682cyO  [0;39m HikariPool-1 - Starting...
+2024-04-02 14:55:32.037 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712062531682cyO  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5075fa4e
+2024-04-02 14:55:32.038 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712062531682cyO  [0;39m HikariPool-1 - Start completed.
+2024-04-02 14:55:32.046 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712062531682cyO  [0;39m ==>  Preparing: select count(*) from member
+2024-04-02 14:55:32.066 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712062531682cyO  [0;39m ==> Parameters: 
+2024-04-02 14:55:32.089 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712062531682cyO  [0;39m <==    Columns: count(*)
+2024-04-02 14:55:32.090 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712062531682cyO  [0;39m <==        Row: 3
+2024-04-02 14:55:32.091 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712062531682cyO  [0;39m <==      Total: 1
+2024-04-02 14:55:32.122 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712062531682cyO  [0;39m 返回结果：{"content":3,"success":true}
+2024-04-02 14:55:32.122 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712062531682cyO  [0;39m ------------- 结束 耗时：440 ms -------------
+2024-04-02 14:55:34.821 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712062534821crD  [0;39m ------------- START -------------
+2024-04-02 14:55:34.828 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712062534821crD  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 14:55:34.830 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712062534821crD  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 14:55:34.830 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712062534821crD  [0;39m 远程地址: 127.0.0.1
+2024-04-02 14:55:34.832 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712062534821crD  [0;39m 请求参数: [{"mobile":"12312341235"}]
+2024-04-02 14:55:34.846 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062534821crD  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 14:55:34.847 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062534821crD  [0;39m ==> Parameters: 12312341235(String)
+2024-04-02 14:55:34.848 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712062534821crD  [0;39m <==    Columns: id, mobile
+2024-04-02 14:55:34.849 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712062534821crD  [0;39m <==        Row: 1774526622129590272, 12312341235
+2024-04-02 14:55:34.849 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062534821crD  [0;39m <==      Total: 1
+2024-04-02 14:55:34.852 INFO  com.lan.train.member.MemberApplication     :78   [32m1712062534821crD  [0;39m 手机号存在，不插入记录
+2024-04-02 14:55:34.852 INFO  com.lan.train.member.MemberApplication     :83   [32m1712062534821crD  [0;39m 生成短信验证码：8888
+2024-04-02 14:55:35.270 INFO  com.lan.train.member.MemberApplication     :86   [32m1712062534821crD  [0;39m 保存短信记录表
+2024-04-02 14:55:35.271 INFO  com.lan.train.member.MemberApplication     :88   [32m1712062534821crD  [0;39m 对接短信通道
+2024-04-02 14:55:35.271 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712062534821crD  [0;39m 返回结果：{"success":true}
+2024-04-02 14:55:35.271 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712062534821crD  [0;39m ------------- 结束 耗时：450 ms -------------
+2024-04-02 14:55:42.358 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2024-04-02 14:55:42.361 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<com.lan.train.member.resp.MemberLoginResp> com.lan.train.member.controller.MemberController.login(com.lan.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2024-04-02 15:00:10.627 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 14 class path changes (0 additions, 14 deletions, 0 modifications)
+2024-04-02 15:00:10.631 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:00:10.792 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 15:00:10.801 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 15:00:12.174 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 32088 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 15:00:12.174 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 15:00:12.482 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 15:00:12.483 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 15:00:12.487 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-04-02 15:00:12.549 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 15:00:12.688 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 15:00:12.690 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:00:12.690 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 15:00:12.691 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 15:00:12.718 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 15:00:12.718 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 542 ms
+2024-04-02 15:00:12.863 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 15:00:13.409 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 15:00:14.708 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:00:14.735 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:00:14.738 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 15:00:14.851 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 14 class path changes (14 additions, 0 deletions, 0 modifications)
+2024-04-02 15:00:15.960 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:00:15.964 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 5.11 seconds (process running for 329.525)
+2024-04-02 15:00:15.965 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:00:15.967 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-04-02 15:00:15.967 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 15:00:15.967 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 15:00:17.315 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 32088 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 15:00:17.315 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 15:00:17.696 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 15:00:17.696 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 15:00:17.704 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-04-02 15:00:17.795 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 15:00:17.936 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 15:00:17.936 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:00:17.936 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 15:00:17.937 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 15:00:17.967 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 15:00:17.968 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 651 ms
+2024-04-02 15:00:18.097 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 15:00:18.549 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 15:00:19.887 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:00:19.914 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:00:19.919 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 15:00:21.226 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:00:21.235 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 5.209 seconds (process running for 334.797)
+2024-04-02 15:00:21.237 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-04-02 15:00:21.237 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 15:00:21.237 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 15:00:25.058 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 15:00:25.058 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 15:00:25.061 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 3 ms
+2024-04-02 15:00:25.067 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712062825064Aex  [0;39m ------------- START -------------
+2024-04-02 15:00:25.068 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712062825064Aex  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-04-02 15:00:25.068 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712062825064Aex  [0;39m 类名方法: com.lan.train.member.controller.TestController.hello
+2024-04-02 15:00:25.068 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712062825064Aex  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:00:25.070 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712062825064Aex  [0;39m 请求参数: []
+2024-04-02 15:00:25.070 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712062825064Aex  [0;39m 返回结果："Hello world"
+2024-04-02 15:00:25.070 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712062825064Aex  [0;39m ------------- 结束 耗时：6 ms -------------
+2024-04-02 15:00:55.621 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712062855621Ryk  [0;39m ------------- START -------------
+2024-04-02 15:00:55.621 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712062855621Ryk  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 15:00:55.621 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712062855621Ryk  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 15:00:55.622 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712062855621Ryk  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:00:55.622 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712062855621Ryk  [0;39m 请求参数: [{"mobile":"12312341235"}]
+2024-04-02 15:00:55.625 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712062855621Ryk  [0;39m HikariPool-2 - Starting...
+2024-04-02 15:00:55.642 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712062855621Ryk  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1de50870
+2024-04-02 15:00:55.643 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712062855621Ryk  [0;39m HikariPool-2 - Start completed.
+2024-04-02 15:00:55.643 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062855621Ryk  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 15:00:55.644 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062855621Ryk  [0;39m ==> Parameters: 12312341235(String)
+2024-04-02 15:00:55.647 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712062855621Ryk  [0;39m <==    Columns: id, mobile
+2024-04-02 15:00:55.647 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712062855621Ryk  [0;39m <==        Row: 1774526622129590272, 12312341235
+2024-04-02 15:00:55.647 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712062855621Ryk  [0;39m <==      Total: 1
+2024-04-02 15:00:55.648 INFO  com.lan.train.member.MemberApplication     :78   [32m1712062855621Ryk  [0;39m 手机号存在，不插入记录
+2024-04-02 15:00:55.648 INFO  com.lan.train.member.MemberApplication     :83   [32m1712062855621Ryk  [0;39m 生成短信验证码：8888
+2024-04-02 15:00:55.669 INFO  com.lan.train.member.MemberApplication     :86   [32m1712062855621Ryk  [0;39m 保存短信记录表
+2024-04-02 15:00:55.669 INFO  com.lan.train.member.MemberApplication     :88   [32m1712062855621Ryk  [0;39m 对接短信通道
+2024-04-02 15:00:55.670 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712062855621Ryk  [0;39m 返回结果：{"success":true}
+2024-04-02 15:00:55.671 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712062855621Ryk  [0;39m ------------- 结束 耗时：50 ms -------------
+2024-04-02 15:01:08.454 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2024-04-02 15:01:08.456 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<com.lan.train.member.resp.MemberLoginResp> com.lan.train.member.controller.MemberController.login(com.lan.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2024-04-02 15:01:39.020 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2024-04-02 15:01:39.024 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2024-04-02 15:12:55.777 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 15:12:55.823 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 26820 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 15:12:55.824 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 15:12:55.874 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 15:12:55.874 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 15:12:56.594 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 15:12:56.597 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 15:12:56.624 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-04-02 15:12:56.814 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 15:12:57.520 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 15:12:57.531 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:12:57.532 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 15:12:57.533 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 15:12:57.587 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 15:12:57.587 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1712 ms
+2024-04-02 15:12:58.065 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 15:12:58.885 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 15:13:00.117 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:13:00.169 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:13:00.184 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 15:13:01.410 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:13:01.422 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.318 seconds (process running for 7.859)
+2024-04-02 15:13:01.425 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 15:13:01.426 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 15:14:28.444 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 15:14:28.489 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 29184 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 15:14:28.490 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 15:14:28.539 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 15:14:28.539 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 15:14:29.267 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 15:14:29.271 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 15:14:29.297 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-04-02 15:14:29.505 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 15:14:30.275 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 15:14:30.286 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:14:30.288 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 15:14:30.288 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 15:14:30.353 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 15:14:30.354 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1814 ms
+2024-04-02 15:14:30.846 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 15:14:31.741 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 15:14:32.986 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:14:33.045 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:14:33.060 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 15:14:34.280 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:14:34.291 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.516 seconds (process running for 8.114)
+2024-04-02 15:14:34.295 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 15:14:34.295 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 15:16:04.796 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 15:16:04.797 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 15:16:04.798 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 15:16:04.888 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712063764880GLc  [0;39m ------------- START -------------
+2024-04-02 15:16:04.889 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712063764880GLc  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 15:16:04.890 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712063764880GLc  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 15:16:04.890 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712063764880GLc  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:16:04.955 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712063764880GLc  [0;39m 请求参数: [{"mobile":"12312341235"}]
+2024-04-02 15:16:05.000 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712063764880GLc  [0;39m HikariPool-1 - Starting...
+2024-04-02 15:16:05.234 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712063764880GLc  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63963bd
+2024-04-02 15:16:05.236 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712063764880GLc  [0;39m HikariPool-1 - Start completed.
+2024-04-02 15:16:05.246 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712063764880GLc  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 15:16:05.270 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712063764880GLc  [0;39m ==> Parameters: 12312341235(String)
+2024-04-02 15:16:05.290 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712063764880GLc  [0;39m <==    Columns: id, mobile
+2024-04-02 15:16:05.290 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712063764880GLc  [0;39m <==        Row: 1774526622129590272, 12312341235
+2024-04-02 15:16:05.291 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712063764880GLc  [0;39m <==      Total: 1
+2024-04-02 15:16:05.299 INFO  com.lan.train.member.MemberApplication     :78   [32m1712063764880GLc  [0;39m 手机号存在，不插入记录
+2024-04-02 15:16:05.299 INFO  com.lan.train.member.MemberApplication     :83   [32m1712063764880GLc  [0;39m 生成短信验证码：8888
+2024-04-02 15:16:05.654 INFO  com.lan.train.member.MemberApplication     :86   [32m1712063764880GLc  [0;39m 保存短信记录表
+2024-04-02 15:16:05.655 INFO  com.lan.train.member.MemberApplication     :88   [32m1712063764880GLc  [0;39m 对接短信通道
+2024-04-02 15:16:05.661 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712063764880GLc  [0;39m 返回结果：{"success":true}
+2024-04-02 15:16:05.661 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712063764880GLc  [0;39m ------------- 结束 耗时：781 ms -------------
+2024-04-02 15:16:09.667 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2024-04-02 15:16:09.672 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<com.lan.train.member.resp.MemberLoginResp> com.lan.train.member.controller.MemberController.login(com.lan.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2024-04-02 15:20:21.165 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m17120640211655nr  [0;39m ------------- START -------------
+2024-04-02 15:20:21.165 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m17120640211655nr  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 15:20:21.165 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m17120640211655nr  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 15:20:21.166 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m17120640211655nr  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:20:21.166 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m17120640211655nr  [0;39m 请求参数: [{"mobile":"12312341235"}]
+2024-04-02 15:20:21.168 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m17120640211655nr  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 15:20:21.169 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m17120640211655nr  [0;39m ==> Parameters: 12312341235(String)
+2024-04-02 15:20:21.171 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m17120640211655nr  [0;39m <==    Columns: id, mobile
+2024-04-02 15:20:21.171 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m17120640211655nr  [0;39m <==        Row: 1774526622129590272, 12312341235
+2024-04-02 15:20:21.172 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m17120640211655nr  [0;39m <==      Total: 1
+2024-04-02 15:20:21.173 INFO  com.lan.train.member.MemberApplication     :78   [32m17120640211655nr  [0;39m 手机号存在，不插入记录
+2024-04-02 15:20:21.173 INFO  com.lan.train.member.MemberApplication     :83   [32m17120640211655nr  [0;39m 生成短信验证码：8888
+2024-04-02 15:20:21.175 INFO  com.lan.train.member.MemberApplication     :86   [32m17120640211655nr  [0;39m 保存短信记录表
+2024-04-02 15:20:21.175 INFO  com.lan.train.member.MemberApplication     :88   [32m17120640211655nr  [0;39m 对接短信通道
+2024-04-02 15:20:21.176 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m17120640211655nr  [0;39m 返回结果：{"success":true}
+2024-04-02 15:20:21.176 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m17120640211655nr  [0;39m ------------- 结束 耗时：11 ms -------------
+2024-04-02 15:20:22.626 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：手机号码格式错误
+2024-04-02 15:20:22.627 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<com.lan.train.member.resp.MemberLoginResp> com.lan.train.member.controller.MemberController.login(com.lan.train.member.req.MemberLoginReq): [Field error in object 'memberLoginReq' on field 'mobile': rejected value [12312341235]; codes [Pattern.memberLoginReq.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@1a23c88b,^1\d{11}$]; default message [手机号码格式错误]] ]
+2024-04-02 15:20:52.517 ERROR c.l.t.common.controller.ControllerExceptionHandler:24   [32m                  [0;39m 系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-02 15:20:52.523 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2024-04-02 15:22:36.533 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 15:22:36.545 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 15:23:33.507 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 15:23:33.552 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 22668 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 15:23:33.553 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 15:23:33.596 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 15:23:33.596 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 15:23:34.316 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 15:23:34.319 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 15:23:34.352 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-04-02 15:23:34.575 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 15:23:35.321 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 15:23:35.333 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:23:35.335 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 15:23:35.335 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 15:23:35.388 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 15:23:35.389 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1792 ms
+2024-04-02 15:23:35.871 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 15:23:36.725 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 15:23:37.949 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:23:38.001 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 15:23:38.017 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 15:23:39.259 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 15:23:39.276 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.41 seconds (process running for 7.974)
+2024-04-02 15:23:39.279 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 15:23:39.280 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 15:24:33.527 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 15:24:33.528 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 15:24:33.529 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 15:24:33.567 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712064273561Q48  [0;39m ------------- START -------------
+2024-04-02 15:24:33.567 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712064273561Q48  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2024-04-02 15:24:33.568 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712064273561Q48  [0;39m 类名方法: com.lan.train.member.controller.MemberController.count
+2024-04-02 15:24:33.568 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712064273561Q48  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:24:33.609 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712064273561Q48  [0;39m 请求参数: []
+2024-04-02 15:24:33.639 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712064273561Q48  [0;39m HikariPool-1 - Starting...
+2024-04-02 15:24:33.885 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712064273561Q48  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e80b4b1
+2024-04-02 15:24:33.887 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712064273561Q48  [0;39m HikariPool-1 - Start completed.
+2024-04-02 15:24:33.893 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712064273561Q48  [0;39m ==>  Preparing: select count(*) from member
+2024-04-02 15:24:33.917 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712064273561Q48  [0;39m ==> Parameters: 
+2024-04-02 15:24:33.938 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712064273561Q48  [0;39m <==    Columns: count(*)
+2024-04-02 15:24:33.939 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712064273561Q48  [0;39m <==        Row: 3
+2024-04-02 15:24:33.940 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712064273561Q48  [0;39m <==      Total: 1
+2024-04-02 15:24:33.969 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712064273561Q48  [0;39m 返回结果：{"content":3,"success":true}
+2024-04-02 15:24:33.969 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712064273561Q48  [0;39m ------------- 结束 耗时：408 ms -------------
+2024-04-02 15:24:49.644 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712064289644i3d  [0;39m ------------- START -------------
+2024-04-02 15:24:49.645 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712064289644i3d  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2024-04-02 15:24:49.645 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712064289644i3d  [0;39m 类名方法: com.lan.train.member.controller.MemberController.count
+2024-04-02 15:24:49.645 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712064289644i3d  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:24:49.645 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712064289644i3d  [0;39m 请求参数: []
+2024-04-02 15:24:49.646 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712064289644i3d  [0;39m ==>  Preparing: select count(*) from member
+2024-04-02 15:24:49.647 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712064289644i3d  [0;39m ==> Parameters: 
+2024-04-02 15:24:49.650 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712064289644i3d  [0;39m <==    Columns: count(*)
+2024-04-02 15:24:49.650 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712064289644i3d  [0;39m <==        Row: 3
+2024-04-02 15:24:49.650 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712064289644i3d  [0;39m <==      Total: 1
+2024-04-02 15:24:49.651 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712064289644i3d  [0;39m 返回结果：{"content":3,"success":true}
+2024-04-02 15:24:49.651 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712064289644i3d  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-04-02 15:26:18.320 ERROR c.l.t.common.controller.ControllerExceptionHandler:54   [32m                  [0;39m 校验异常：手机号码格式错误
+2024-04-02 15:26:18.325 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.lan.train.common.resp.CommonResp<java.lang.Long> com.lan.train.member.controller.MemberController.sendCode(com.lan.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [12312341235]; codes [Pattern.memberSendCodeReq.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@4c539d07,^1[3-9]\d{9}$]; default message [手机号码格式错误]] ]
+2024-04-02 15:26:38.577 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712064398577o7l  [0;39m ------------- START -------------
+2024-04-02 15:26:38.577 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712064398577o7l  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2024-04-02 15:26:38.577 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712064398577o7l  [0;39m 类名方法: com.lan.train.member.controller.MemberController.register
+2024-04-02 15:26:38.577 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712064398577o7l  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:26:38.580 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712064398577o7l  [0;39m 请求参数: [{"mobile":"13711351234"}]
+2024-04-02 15:26:38.593 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064398577o7l  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 15:26:38.594 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064398577o7l  [0;39m ==> Parameters: 13711351234(String)
+2024-04-02 15:26:38.596 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064398577o7l  [0;39m <==      Total: 0
+2024-04-02 15:26:38.626 DEBUG com.lan.train.member.mapper.MemberMapper.insert   :135  [32m1712064398577o7l  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2024-04-02 15:26:38.627 DEBUG com.lan.train.member.mapper.MemberMapper.insert   :135  [32m1712064398577o7l  [0;39m ==> Parameters: 1775152865866813440(Long), 13711351234(String)
+2024-04-02 15:26:38.637 DEBUG com.lan.train.member.mapper.MemberMapper.insert   :135  [32m1712064398577o7l  [0;39m <==    Updates: 1
+2024-04-02 15:26:38.637 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712064398577o7l  [0;39m 返回结果：{"content":1775152865866813440,"success":true}
+2024-04-02 15:26:38.637 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712064398577o7l  [0;39m ------------- 结束 耗时：60 ms -------------
+2024-04-02 15:26:48.441 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712064408440Qim  [0;39m ------------- START -------------
+2024-04-02 15:26:48.441 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712064408440Qim  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 15:26:48.441 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712064408440Qim  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 15:26:48.441 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712064408440Qim  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:26:48.443 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712064408440Qim  [0;39m 请求参数: [{"mobile":"13711351234"}]
+2024-04-02 15:26:48.444 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064408440Qim  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 15:26:48.445 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064408440Qim  [0;39m ==> Parameters: 13711351234(String)
+2024-04-02 15:26:48.446 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712064408440Qim  [0;39m <==    Columns: id, mobile
+2024-04-02 15:26:48.446 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712064408440Qim  [0;39m <==        Row: 1775152865866813440, 13711351234
+2024-04-02 15:26:48.446 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064408440Qim  [0;39m <==      Total: 1
+2024-04-02 15:26:48.447 INFO  com.lan.train.member.MemberApplication     :78   [32m1712064408440Qim  [0;39m 手机号存在，不插入记录
+2024-04-02 15:26:48.447 INFO  com.lan.train.member.MemberApplication     :83   [32m1712064408440Qim  [0;39m 生成短信验证码：8888
+2024-04-02 15:26:48.814 INFO  com.lan.train.member.MemberApplication     :86   [32m1712064408440Qim  [0;39m 保存短信记录表
+2024-04-02 15:26:48.814 INFO  com.lan.train.member.MemberApplication     :88   [32m1712064408440Qim  [0;39m 对接短信通道
+2024-04-02 15:26:48.814 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712064408440Qim  [0;39m 返回结果：{"success":true}
+2024-04-02 15:26:48.814 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712064408440Qim  [0;39m ------------- 结束 耗时：374 ms -------------
+2024-04-02 15:26:51.704 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712064411704FsP  [0;39m ------------- START -------------
+2024-04-02 15:26:51.705 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712064411704FsP  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-04-02 15:26:51.705 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712064411704FsP  [0;39m 类名方法: com.lan.train.member.controller.MemberController.login
+2024-04-02 15:26:51.705 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712064411704FsP  [0;39m 远程地址: 127.0.0.1
+2024-04-02 15:26:51.708 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712064411704FsP  [0;39m 请求参数: [{"code":"8888","mobile":"13711351234"}]
+2024-04-02 15:26:51.709 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064411704FsP  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 15:26:51.710 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064411704FsP  [0;39m ==> Parameters: 13711351234(String)
+2024-04-02 15:26:51.711 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712064411704FsP  [0;39m <==    Columns: id, mobile
+2024-04-02 15:26:51.711 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712064411704FsP  [0;39m <==        Row: 1775152865866813440, 13711351234
+2024-04-02 15:26:51.711 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712064411704FsP  [0;39m <==      Total: 1
+2024-04-02 15:26:51.732 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712064411704FsP  [0;39m 返回结果：{"content":{"id":1775152865866813440,"mobile":"13711351234"},"success":true}
+2024-04-02 15:26:51.733 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712064411704FsP  [0;39m ------------- 结束 耗时：29 ms -------------
+2024-04-02 15:26:57.375 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 15:26:57.383 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 17:32:01.258 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 17:32:01.301 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 33224 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 17:32:01.301 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 17:32:01.346 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 17:32:01.346 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 17:32:02.089 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 17:32:02.092 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 17:32:02.120 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-04-02 17:32:02.326 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 17:32:03.104 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 17:32:03.116 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 17:32:03.118 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 17:32:03.118 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 17:32:03.175 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 17:32:03.175 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1828 ms
+2024-04-02 17:32:03.648 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 17:32:04.444 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 17:32:05.681 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 17:32:05.724 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 17:32:05.740 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 17:32:06.960 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 17:32:06.974 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.39 seconds (process running for 7.995)
+2024-04-02 17:32:06.978 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 17:32:06.979 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 17:33:00.968 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 17:33:00.968 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 17:33:00.970 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 2 ms
+2024-04-02 17:33:01.120 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712071981110Duq  [0;39m ------------- START -------------
+2024-04-02 17:33:01.121 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712071981110Duq  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 17:33:01.121 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712071981110Duq  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 17:33:01.121 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712071981110Duq  [0;39m 远程地址: 127.0.0.1
+2024-04-02 17:33:01.208 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712071981110Duq  [0;39m 请求参数: [{"mobile":"13711351234"}]
+2024-04-02 17:33:01.261 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712071981110Duq  [0;39m HikariPool-1 - Starting...
+2024-04-02 17:33:01.586 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712071981110Duq  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62794cff
+2024-04-02 17:33:01.588 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712071981110Duq  [0;39m HikariPool-1 - Start completed.
+2024-04-02 17:33:01.596 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712071981110Duq  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 17:33:01.627 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712071981110Duq  [0;39m ==> Parameters: 13711351234(String)
+2024-04-02 17:33:01.658 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712071981110Duq  [0;39m <==    Columns: id, mobile
+2024-04-02 17:33:01.659 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712071981110Duq  [0;39m <==        Row: 1775152865866813440, 13711351234
+2024-04-02 17:33:01.660 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712071981110Duq  [0;39m <==      Total: 1
+2024-04-02 17:33:01.670 INFO  com.lan.train.member.MemberApplication     :78   [32m1712071981110Duq  [0;39m 手机号存在，不插入记录
+2024-04-02 17:33:01.671 INFO  com.lan.train.member.MemberApplication     :83   [32m1712071981110Duq  [0;39m 生成短信验证码：8888
+2024-04-02 17:33:02.034 INFO  com.lan.train.member.MemberApplication     :86   [32m1712071981110Duq  [0;39m 保存短信记录表
+2024-04-02 17:33:02.035 INFO  com.lan.train.member.MemberApplication     :88   [32m1712071981110Duq  [0;39m 对接短信通道
+2024-04-02 17:33:02.038 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712071981110Duq  [0;39m 返回结果：{"success":true}
+2024-04-02 17:33:02.038 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712071981110Duq  [0;39m ------------- 结束 耗时：928 ms -------------
+2024-04-02 17:36:48.235 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 17:36:48.245 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 17:58:33.147 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 17:58:33.192 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 21924 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 17:58:33.193 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 17:58:33.240 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 17:58:33.240 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 17:58:33.976 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 17:58:33.979 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 17:58:34.005 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-04-02 17:58:34.218 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 17:58:34.997 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 17:58:35.009 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 17:58:35.010 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 17:58:35.010 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 17:58:35.071 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 17:58:35.072 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1831 ms
+2024-04-02 17:58:35.535 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 17:58:36.380 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 17:58:37.628 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 17:58:37.690 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 17:58:37.707 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 17:58:38.921 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 17:58:38.931 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.408 seconds (process running for 8.143)
+2024-04-02 17:58:38.935 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 17:58:38.935 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 17:59:33.898 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 17:59:33.898 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 17:59:33.899 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 17:59:33.940 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712073573932zcg  [0;39m ------------- START -------------
+2024-04-02 17:59:33.941 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712073573932zcg  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2024-04-02 17:59:33.941 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712073573932zcg  [0;39m 类名方法: com.lan.train.member.controller.MemberController.count
+2024-04-02 17:59:33.941 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712073573932zcg  [0;39m 远程地址: 127.0.0.1
+2024-04-02 17:59:33.986 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712073573932zcg  [0;39m 请求参数: []
+2024-04-02 17:59:34.018 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1712073573932zcg  [0;39m HikariPool-1 - Starting...
+2024-04-02 17:59:34.291 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1712073573932zcg  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41f5bbcd
+2024-04-02 17:59:34.293 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1712073573932zcg  [0;39m HikariPool-1 - Start completed.
+2024-04-02 17:59:34.300 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712073573932zcg  [0;39m ==>  Preparing: select count(*) from member
+2024-04-02 17:59:34.330 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712073573932zcg  [0;39m ==> Parameters: 
+2024-04-02 17:59:34.360 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712073573932zcg  [0;39m <==    Columns: count(*)
+2024-04-02 17:59:34.360 TRACE c.l.t.member.mapper.MemberMapper.countByExample   :141  [32m1712073573932zcg  [0;39m <==        Row: 4
+2024-04-02 17:59:34.363 DEBUG c.l.t.member.mapper.MemberMapper.countByExample   :135  [32m1712073573932zcg  [0;39m <==      Total: 1
+2024-04-02 17:59:34.399 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712073573932zcg  [0;39m 返回结果：{"content":4,"success":true}
+2024-04-02 17:59:34.400 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712073573932zcg  [0;39m ------------- 结束 耗时：468 ms -------------
+2024-04-02 17:59:36.707 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712073576707sns  [0;39m ------------- START -------------
+2024-04-02 17:59:36.707 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712073576707sns  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-04-02 17:59:36.707 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712073576707sns  [0;39m 类名方法: com.lan.train.member.controller.MemberController.sendCode
+2024-04-02 17:59:36.707 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712073576707sns  [0;39m 远程地址: 127.0.0.1
+2024-04-02 17:59:36.709 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712073576707sns  [0;39m 请求参数: [{"mobile":"13711351234"}]
+2024-04-02 17:59:36.723 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712073576707sns  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 17:59:36.724 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712073576707sns  [0;39m ==> Parameters: 13711351234(String)
+2024-04-02 17:59:36.725 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712073576707sns  [0;39m <==    Columns: id, mobile
+2024-04-02 17:59:36.725 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m1712073576707sns  [0;39m <==        Row: 1775152865866813440, 13711351234
+2024-04-02 17:59:36.725 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m1712073576707sns  [0;39m <==      Total: 1
+2024-04-02 17:59:36.728 INFO  com.lan.train.member.MemberApplication     :78   [32m1712073576707sns  [0;39m 手机号存在，不插入记录
+2024-04-02 17:59:36.728 INFO  com.lan.train.member.MemberApplication     :83   [32m1712073576707sns  [0;39m 生成短信验证码：8888
+2024-04-02 17:59:37.095 INFO  com.lan.train.member.MemberApplication     :86   [32m1712073576707sns  [0;39m 保存短信记录表
+2024-04-02 17:59:37.096 INFO  com.lan.train.member.MemberApplication     :88   [32m1712073576707sns  [0;39m 对接短信通道
+2024-04-02 17:59:37.096 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712073576707sns  [0;39m 返回结果：{"success":true}
+2024-04-02 17:59:37.096 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712073576707sns  [0;39m ------------- 结束 耗时：389 ms -------------
+2024-04-02 17:59:50.267 ERROR c.l.t.common.controller.ControllerExceptionHandler:24   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:159)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:134)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-02 17:59:50.273 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-04-02 18:00:31.047 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m17120736310476Kz  [0;39m ------------- START -------------
+2024-04-02 18:00:31.047 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m17120736310476Kz  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-04-02 18:00:31.047 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m17120736310476Kz  [0;39m 类名方法: com.lan.train.member.controller.MemberController.login
+2024-04-02 18:00:31.048 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m17120736310476Kz  [0;39m 远程地址: 127.0.0.1
+2024-04-02 18:00:31.049 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m17120736310476Kz  [0;39m 请求参数: [{"code":"8888","mobile":"13711351234"}]
+2024-04-02 18:00:31.051 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m17120736310476Kz  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-04-02 18:00:31.051 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m17120736310476Kz  [0;39m ==> Parameters: 13711351234(String)
+2024-04-02 18:00:31.053 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m17120736310476Kz  [0;39m <==    Columns: id, mobile
+2024-04-02 18:00:31.053 TRACE c.l.t.member.mapper.MemberMapper.selectByExample  :141  [32m17120736310476Kz  [0;39m <==        Row: 1775152865866813440, 13711351234
+2024-04-02 18:00:31.053 DEBUG c.l.t.member.mapper.MemberMapper.selectByExample  :135  [32m17120736310476Kz  [0;39m <==      Total: 1
+2024-04-02 18:00:31.102 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m17120736310476Kz  [0;39m 返回结果：{"content":{"id":1775152865866813440,"mobile":"13711351234"},"success":true}
+2024-04-02 18:00:31.102 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m17120736310476Kz  [0;39m ------------- 结束 耗时：55 ms -------------
+2024-04-02 18:00:37.640 ERROR c.l.t.common.controller.ControllerExceptionHandler:24   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:507)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-02 18:00:37.644 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-04-02 18:01:20.089 ERROR c.l.t.common.controller.ControllerExceptionHandler:24   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:507)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-02 18:01:20.092 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-04-02 18:12:19.941 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-04-02 18:12:19.952 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-04-02 18:18:51.666 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 18:18:51.709 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 24248 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 18:18:51.710 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 18:18:51.755 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 18:18:51.755 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 18:18:52.470 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 18:18:52.473 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 18:18:52.500 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-04-02 18:18:52.722 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 18:18:53.423 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 18:18:53.432 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 18:18:53.433 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 18:18:53.433 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 18:18:53.489 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 18:18:53.490 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1734 ms
+2024-04-02 18:18:53.962 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 18:18:54.776 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 18:18:56.024 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 18:18:56.079 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 18:18:56.100 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 18:18:57.318 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 18:18:57.332 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.246 seconds (process running for 7.796)
+2024-04-02 18:18:57.335 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 18:18:57.335 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello
+2024-04-02 18:19:53.616 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 18:19:53.617 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 18:19:53.620 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 3 ms
+2024-04-02 18:19:53.667 INFO  com.lan.train.common.aspect.LogAspect             :63   [32m1712074793659G8z  [0;39m ------------- START -------------
+2024-04-02 18:19:53.668 INFO  com.lan.train.common.aspect.LogAspect             :64   [32m1712074793659G8z  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-04-02 18:19:53.668 INFO  com.lan.train.common.aspect.LogAspect             :65   [32m1712074793659G8z  [0;39m 类名方法: com.lan.train.member.controller.TestController.hello
+2024-04-02 18:19:53.668 INFO  com.lan.train.common.aspect.LogAspect             :66   [32m1712074793659G8z  [0;39m 远程地址: 127.0.0.1
+2024-04-02 18:19:53.721 INFO  com.lan.train.common.aspect.LogAspect             :88   [32m1712074793659G8z  [0;39m 请求参数: []
+2024-04-02 18:19:53.721 INFO  com.lan.train.common.aspect.LogAspect             :99   [32m1712074793659G8z  [0;39m 返回结果："Hello world"
+2024-04-02 18:19:53.722 INFO  com.lan.train.common.aspect.LogAspect             :100  [32m1712074793659G8z  [0;39m ------------- 结束 耗时：64 ms -------------
+2024-04-02 18:23:14.210 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 18:23:14.258 INFO  com.lan.train.member.MemberApplication     :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 5784 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 18:23:14.259 INFO  com.lan.train.member.MemberApplication     :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 18:23:14.308 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 18:23:14.308 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 18:23:15.010 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 18:23:15.014 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 18:23:15.048 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-04-02 18:23:15.253 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ff72ac00-2251-37d9-b51a-982715a67d2f
+2024-04-02 18:23:15.972 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 18:23:15.984 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 18:23:15.985 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 18:23:15.986 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 18:23:16.045 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 18:23:16.045 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1736 ms
+2024-04-02 18:23:16.502 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 18:23:17.325 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 18:23:18.561 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 18:23:18.617 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 18:23:18.633 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 18:23:19.885 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 18:23:19.893 INFO  com.lan.train.member.MemberApplication     :56   [32m                  [0;39m Started MemberApplication in 7.271 seconds (process running for 7.825)
+2024-04-02 18:23:19.896 INFO  com.lan.train.member.MemberApplication     :23   [32m                  [0;39m start successfully!
+2024-04-02 18:23:19.897 INFO  com.lan.train.member.MemberApplication     :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/login
+2024-04-02 18:23:57.776 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 18:23:57.777 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-04-02 18:23:57.778 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-04-02 18:23:57.815 ERROR c.l.t.common.controller.ControllerExceptionHandler:24   [32m                  [0;39m 系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource login.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-02 18:23:57.888 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :247  [32m                  [0;39m Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource login.]
+2024-04-02 18:32:25.528 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 18:32:25.570 INFO  com.lan.train.member.MemberApplication            :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.10 with PID 9088 (C:\Users\lanla\Desktop\1\train\member\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-04-02 18:32:25.571 INFO  com.lan.train.member.MemberApplication            :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-04-02 18:32:25.614 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02 18:32:25.614 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02 18:32:26.290 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :292  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-02 18:32:26.294 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :139  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-02 18:32:26.324 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-04-02 18:32:26.524 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b914233c-4feb-3ec6-a17f-96b446ee0d54
+2024-04-02 18:32:27.256 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-04-02 18:32:27.268 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-04-02 18:32:27.270 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-04-02 18:32:27.270 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02 18:32:27.329 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-04-02 18:32:27.330 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1715 ms
+2024-04-02 18:32:27.799 INFO  com.lan.train.member.config.RedisConfiguration    :15   [32m                  [0;39m 开始创建redis模板类...
+2024-04-02 18:32:28.598 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-04-02 18:32:29.826 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 18:32:29.886 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-04-02 18:32:29.902 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-04-02 18:32:31.128 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-04-02 18:32:31.137 INFO  com.lan.train.member.MemberApplication            :56   [32m                  [0;39m Started MemberApplication in 7.245 seconds (process running for 7.831)
+2024-04-02 18:32:31.140 INFO  com.lan.train.member.MemberApplication            :23   [32m                  [0;39m start successfully!
+2024-04-02 18:32:31.141 INFO  com.lan.train.member.MemberApplication            :24   [32m                  [0;39m test: 	 http://127.0.0.1:8001/member/hello

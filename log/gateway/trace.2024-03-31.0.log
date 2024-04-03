@@ -1,0 +1,871 @@
+2024-03-31 00:53:01.110 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 00:53:01.148 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 24164 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 00:53:01.149 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 00:53:01.189 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 00:53:01.192 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 00:53:01.878 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=168bcb8d-721b-3edc-bf0c-253eb5349243
+2024-03-31 00:53:02.261 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 00:53:02.272 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 00:53:02.274 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 00:53:02.274 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 00:53:02.324 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 00:53:02.324 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1132 ms
+2024-03-31 00:53:02.431 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-03-31 00:53:02.434 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-31 00:53:02.446 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 00:53:02.465 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-03-31 00:53:30.185 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 00:53:30.233 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 9028 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 00:53:30.234 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 00:53:30.280 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 00:53:30.280 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 00:53:31.058 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=168bcb8d-721b-3edc-bf0c-253eb5349243
+2024-03-31 00:53:31.444 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 00:53:31.454 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 00:53:31.456 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 00:53:31.456 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 00:53:31.518 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 00:53:31.519 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1238 ms
+2024-03-31 00:53:31.648 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-03-31 00:53:31.651 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-31 00:53:31.670 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 00:53:31.693 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-03-31 01:00:20.307 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:00:20.346 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 4268 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:00:20.347 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:00:20.388 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:00:20.389 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:00:21.138 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9fe55cba-7ca6-3133-9ac2-907dd80cb8bb
+2024-03-31 01:00:21.525 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:00:21.534 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:00:21.535 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:00:21.536 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:00:21.592 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:00:21.593 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1204 ms
+2024-03-31 01:00:21.696 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-03-31 01:00:21.698 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-31 01:00:21.714 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 01:00:21.735 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-03-31 01:03:40.846 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:03:40.885 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 10352 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:03:40.886 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:03:40.925 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:03:40.925 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:03:41.666 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d7174526-7020-37b8-acbc-d2c6724d0aa7
+2024-03-31 01:03:42.228 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:03:42.237 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:03:42.239 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:03:42.239 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:03:42.293 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:03:42.293 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1367 ms
+2024-03-31 01:03:42.467 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-03-31 01:03:42.469 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-31 01:03:42.482 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 01:03:42.501 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-03-31 01:08:16.665 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:08:16.707 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 31488 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:08:16.708 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:08:16.750 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:08:16.750 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:08:17.477 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=bd6c3826-13e8-3882-a05f-69e0ae942a09
+2024-03-31 01:08:18.088 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:08:18.099 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:08:18.100 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:08:18.100 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:08:18.162 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:08:18.162 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1411 ms
+2024-03-31 01:08:18.335 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-03-31 01:08:18.337 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-31 01:08:18.352 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 01:08:18.368 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-03-31 01:15:08.300 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 22268 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:15:08.302 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:15:08.341 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:15:08.341 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:15:09.011 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=66a5c085-a8be-321e-a8ea-7ce82f98e03f
+2024-03-31 01:15:09.569 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:15:09.581 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:15:09.583 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:15:09.583 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:15:09.627 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:15:09.627 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1285 ms
+2024-03-31 01:15:10.250 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-31 01:15:11.591 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:15:11.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:15:11.695 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:15:12.974 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:15:12.986 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 6.388 seconds (process running for 7.015)
+2024-03-31 01:15:12.989 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:15:12.990 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:15:54.263 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 01:15:54.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:15:55.651 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 22268 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:15:55.652 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:15:55.826 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=66a5c085-a8be-321e-a8ea-7ce82f98e03f
+2024-03-31 01:15:55.920 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:15:55.922 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:15:55.922 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:15:55.922 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:15:55.939 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:15:55.940 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 286 ms
+2024-03-31 01:15:56.183 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-31 01:15:57.530 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:15:57.569 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:15:57.572 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:15:58.870 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:15:58.876 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 4.553 seconds (process running for 52.905)
+2024-03-31 01:15:58.880 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-31 01:15:58.882 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:15:58.882 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:18:59.719 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 01:18:59.720 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-31 01:18:59.721 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-31 01:19:14.106 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 28076 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:19:14.109 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:19:14.149 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:19:14.149 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:19:14.756 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=66a5c085-a8be-321e-a8ea-7ce82f98e03f
+2024-03-31 01:19:15.292 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:19:15.303 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:19:15.305 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:19:15.305 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:19:15.350 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:19:15.350 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1200 ms
+2024-03-31 01:19:15.966 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-31 01:19:17.244 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:19:17.315 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:19:17.343 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:19:18.615 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:19:18.626 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 6.161 seconds (process running for 6.653)
+2024-03-31 01:19:18.629 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:19:18.629 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:19:25.455 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 01:19:25.455 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-31 01:19:25.456 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-31 01:28:09.957 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 26232 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:28:09.960 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:28:09.999 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:28:09.999 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:28:10.621 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=66a5c085-a8be-321e-a8ea-7ce82f98e03f
+2024-03-31 01:28:11.247 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:28:11.258 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:28:11.260 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:28:11.261 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:28:11.307 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:28:11.307 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1308 ms
+2024-03-31 01:28:11.953 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:28:13.272 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:28:13.351 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:28:13.380 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:28:14.670 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:28:14.681 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 6.441 seconds (process running for 6.965)
+2024-03-31 01:28:14.685 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:28:14.685 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:28:17.128 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 01:28:17.129 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-31 01:28:17.129 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2024-03-31 01:30:48.594 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:30:48.633 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 8864 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:30:48.634 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:30:48.677 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:30:48.678 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:30:49.445 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=bd6c3826-13e8-3882-a05f-69e0ae942a09
+2024-03-31 01:30:50.069 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:30:50.082 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:30:50.084 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:30:50.084 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:30:50.149 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-31 01:30:50.149 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1471 ms
+2024-03-31 01:30:50.330 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-03-31 01:30:50.332 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-31 01:30:50.345 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 01:30:50.363 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-03-31 01:31:54.585 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:31:54.636 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 26008 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:31:54.638 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:31:54.679 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:31:54.679 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:31:55.382 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:31:55.810 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:31:55.821 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:31:55.823 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:31:55.824 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:31:57.489 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:31:57.946 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:31:57.947 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:31:57.947 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:31:57.947 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:31:57.947 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:31:57.947 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:31:57.947 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:31:57.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:31:58.255 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:31:59.542 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:31:59.613 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:31:59.630 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:32:00.944 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:32:02.251 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:32:02.305 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.397 seconds (process running for 9.944)
+2024-03-31 01:32:02.308 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:32:02.308 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:36:13.443 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:36:13.497 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 26584 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:36:13.498 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:36:13.541 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:36:13.542 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:36:14.261 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:36:14.691 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:36:14.701 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:36:14.703 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:36:14.703 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:36:16.344 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:36:16.762 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:36:16.763 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:36:16.763 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:36:16.763 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:36:16.764 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:36:16.764 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:36:16.764 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:36:16.765 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:36:17.017 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:36:18.294 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:36:18.356 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:36:18.369 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:36:19.638 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:36:20.916 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:36:20.966 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.167 seconds (process running for 9.679)
+2024-03-31 01:36:20.969 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:36:20.969 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:37:57.382 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:37:57.432 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 8012 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:37:57.433 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:37:57.472 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:37:57.472 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:37:58.134 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:37:58.516 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:37:58.524 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:37:58.526 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:37:58.526 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:38:00.153 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:38:00.551 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:38:00.552 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:38:00.553 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:38:00.553 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:38:00.553 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:38:00.553 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:38:00.553 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:38:00.553 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:38:00.799 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:38:02.086 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:38:02.145 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:38:02.159 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:38:03.431 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:38:04.696 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:38:04.744 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.009 seconds (process running for 9.523)
+2024-03-31 01:38:04.746 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:38:04.747 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:39:36.502 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 01:39:36.506 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:39:37.881 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 8012 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:39:37.881 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:39:38.114 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:39:38.181 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:39:38.181 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:39:38.182 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:39:38.182 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:39:39.574 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:39:39.721 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:39:39.722 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:39:39.829 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:39:41.140 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:39:41.179 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:39:41.184 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:39:42.481 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:39:43.788 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:39:43.800 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 7.243 seconds (process running for 108.58)
+2024-03-31 01:39:43.802 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-31 01:39:43.803 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:39:43.803 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:39:54.044 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:39:54.094 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 30312 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:39:54.095 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:39:54.139 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:39:54.140 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:39:54.878 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:39:55.308 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:39:55.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:39:55.320 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:39:55.320 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:39:56.966 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:39:57.426 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:39:57.427 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:39:57.427 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:39:57.427 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:39:57.427 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:39:57.428 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:39:57.429 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:39:57.714 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:39:59.020 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:39:59.084 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:39:59.104 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:40:00.389 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:40:01.683 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:40:01.739 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.356 seconds (process running for 9.895)
+2024-03-31 01:40:01.742 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:40:01.742 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:40:39.036 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:40:39.089 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 18564 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:40:39.090 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:40:39.130 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:40:39.130 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:40:39.841 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:40:40.272 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:40:40.282 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:40:40.284 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:40:40.284 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:40:41.949 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:40:42.374 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:40:42.375 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:40:42.376 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:40:42.376 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:40:42.376 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:40:42.665 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:40:43.973 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:40:44.043 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:40:44.060 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:40:45.362 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:40:46.668 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:40:46.722 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.367 seconds (process running for 9.934)
+2024-03-31 01:40:46.726 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:40:46.726 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 01:42:03.672 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 01:42:03.721 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 13316 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 01:42:03.722 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 01:42:03.761 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 01:42:03.761 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 01:42:04.419 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d0385355-b3f4-3120-b4cc-f20cf03c2caa
+2024-03-31 01:42:04.808 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 01:42:04.818 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:42:04.819 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 01:42:04.820 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 01:42:06.445 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:42:06.844 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 01:42:06.845 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 01:42:06.845 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 01:42:06.845 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 01:42:06.845 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 01:42:06.845 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 01:42:06.846 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 01:42:07.112 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 01:42:08.396 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:42:08.463 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 01:42:08.479 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 01:42:09.753 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:42:11.124 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 01:42:11.175 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.145 seconds (process running for 9.669)
+2024-03-31 01:42:11.177 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 01:42:11.178 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 04:50:48.728 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 04:50:48.778 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 27876 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 04:50:48.779 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 04:50:48.821 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 04:50:48.821 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 04:50:49.523 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 04:50:49.753 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 04:50:49.763 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 04:50:49.765 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 04:50:49.765 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 04:50:51.362 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 04:50:51.677 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 04:50:51.678 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 04:50:51.679 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 04:50:51.679 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 04:50:51.679 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 04:50:51.679 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 04:50:51.679 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 04:50:51.679 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 04:50:51.872 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-31 04:50:53.173 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 04:50:53.232 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 04:50:53.250 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 04:50:54.543 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 04:50:55.833 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 04:50:55.884 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.837 seconds (process running for 9.453)
+2024-03-31 04:50:55.890 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 04:50:55.891 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 05:07:33.970 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 05:07:34.021 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 11188 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 05:07:34.022 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 05:07:34.060 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 05:07:34.060 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 05:07:34.704 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 05:07:34.945 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 05:07:34.956 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 05:07:34.957 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 05:07:34.958 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 05:07:36.542 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:07:36.921 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 05:07:36.921 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 05:07:36.921 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 05:07:36.921 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 05:07:36.921 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 05:07:36.922 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 05:07:36.923 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 05:07:36.923 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 05:07:37.097 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 05:07:38.367 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:07:38.409 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 05:07:38.422 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 05:07:39.702 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:07:40.980 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:07:41.030 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.733 seconds (process running for 9.31)
+2024-03-31 05:07:41.034 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 05:07:41.035 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 05:11:46.257 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 05:11:46.305 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 4968 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 05:11:46.306 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 05:11:46.347 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 05:11:46.348 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 05:11:46.996 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 05:11:47.223 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 05:11:47.233 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 05:11:47.236 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 05:11:47.236 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 05:11:48.820 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:11:49.138 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 05:11:49.139 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 05:11:49.139 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 05:11:49.139 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 05:11:49.139 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 05:11:49.140 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 05:11:49.315 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 05:11:50.607 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:11:50.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 05:11:50.681 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 05:11:52.037 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:11:53.346 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 05:11:53.398 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.836 seconds (process running for 9.405)
+2024-03-31 05:11:53.401 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 05:11:53.401 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 06:55:19.209 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 06:55:19.256 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 16844 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 06:55:19.257 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 06:55:19.293 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 06:55:19.294 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 06:55:19.898 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 06:55:20.102 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 06:55:20.112 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 06:55:20.113 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 06:55:20.114 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 06:55:21.654 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 06:55:21.942 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 06:55:21.943 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 06:55:21.943 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 06:55:21.943 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 06:55:21.943 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 06:55:21.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 06:55:21.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 06:55:22.117 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 06:55:23.400 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 06:55:23.453 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 06:55:23.470 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 06:55:24.741 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 06:55:26.032 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 06:55:26.087 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.575 seconds (process running for 9.109)
+2024-03-31 06:55:26.090 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 06:55:26.090 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 19:15:51.652 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 19:15:51.708 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 22428 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 19:15:51.709 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 19:15:51.749 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 19:15:51.749 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 19:15:52.333 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 19:15:52.556 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 19:15:52.566 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:15:52.567 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 19:15:52.568 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 19:15:54.099 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:15:54.387 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 19:15:54.387 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 19:15:54.388 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 19:15:54.389 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 19:15:54.389 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 19:15:54.389 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 19:15:54.389 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 19:15:54.563 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-31 19:15:55.829 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:15:55.881 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:15:55.898 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 19:15:57.182 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:15:58.444 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:15:58.492 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.509 seconds (process running for 9.189)
+2024-03-31 19:15:58.497 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 19:15:58.497 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 19:21:34.801 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 19:21:34.861 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 29548 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 19:21:34.862 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 19:21:34.917 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 19:21:34.917 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 19:21:35.613 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 19:21:35.835 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 19:21:35.846 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:21:35.848 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 19:21:35.849 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 19:21:37.446 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:21:37.731 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 19:21:37.731 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 19:21:37.732 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 19:21:37.732 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 19:21:37.732 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 19:21:37.732 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 19:21:37.732 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 19:21:37.733 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 19:21:37.733 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 19:21:37.733 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 19:21:37.733 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 19:21:37.734 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 19:21:37.734 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 19:21:37.734 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 19:21:37.912 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 19:21:39.194 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:21:39.251 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:21:39.270 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 19:21:40.620 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:21:41.927 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:21:41.993 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.91 seconds (process running for 9.618)
+2024-03-31 19:21:41.997 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 19:21:41.998 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 19:28:51.509 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 19:28:51.561 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 29376 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 19:28:51.562 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 19:28:51.601 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 19:28:51.601 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 19:28:52.232 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 19:28:52.445 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 19:28:52.454 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:28:52.456 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 19:28:52.456 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 19:28:54.008 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:28:54.298 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 19:28:54.298 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 19:28:54.298 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 19:28:54.298 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 19:28:54.298 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 19:28:54.298 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 19:28:54.299 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 19:28:54.475 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 19:28:55.749 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:28:55.803 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:28:55.819 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 19:28:57.093 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:28:58.372 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:28:58.423 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.578 seconds (process running for 9.133)
+2024-03-31 19:28:58.426 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 19:28:58.426 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 19:30:36.361 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 19:30:36.410 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 5836 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 19:30:36.411 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 19:30:36.447 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 19:30:36.447 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 19:30:37.026 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 19:30:37.249 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 19:30:37.259 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:30:37.261 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 19:30:37.262 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 19:30:38.803 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:30:39.090 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 19:30:39.091 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 19:30:39.091 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 19:30:39.091 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 19:30:39.091 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 19:30:39.091 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 19:30:39.092 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 19:30:39.262 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 19:30:40.549 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:30:40.607 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:30:40.622 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 19:30:41.907 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:30:43.198 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:30:43.247 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.58 seconds (process running for 9.124)
+2024-03-31 19:30:43.250 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 19:30:43.251 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 19:49:48.338 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 19:49:48.392 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 19600 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 19:49:48.392 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 19:49:48.436 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 19:49:48.436 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 19:49:49.175 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 19:49:49.431 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 19:49:49.441 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:49:49.443 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 19:49:49.444 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 19:49:51.123 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:49:51.532 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 19:49:51.533 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 19:49:51.533 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 19:49:51.534 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 19:49:51.535 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 19:49:51.739 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 19:49:53.091 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:49:53.147 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 19:49:53.161 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 19:49:54.533 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:49:55.920 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 19:49:56.000 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 9.341 seconds (process running for 9.858)
+2024-03-31 19:49:56.006 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 19:49:56.007 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
+2024-03-31 19:50:03.590 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [56a41e1c]  500 Server Error for HTTP POST "/member/member/register"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/register" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:335)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-03-31 21:57:37.935 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2024-03-31 21:57:37.992 INFO  com.lan.train.gateway.config.GatewayApplication   :50   [32m                  [0;39m Starting GatewayApplication using Java 17.0.10 with PID 29048 (C:\Users\lanla\Desktop\1\train\gateway\target\classes started by lanla in C:\Users\lanla\Desktop\1\train)
+2024-03-31 21:57:37.993 INFO  com.lan.train.gateway.config.GatewayApplication   :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-31 21:57:38.035 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 21:57:38.035 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 21:57:38.700 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=62c3db31-8170-3c11-8ab9-d4e837ea1884
+2024-03-31 21:57:38.929 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8000 (http)
+2024-03-31 21:57:38.939 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-03-31 21:57:38.941 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-31 21:57:38.941 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 21:57:40.477 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 21:57:40.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-31 21:57:40.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-31 21:57:40.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-31 21:57:40.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-31 21:57:40.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-31 21:57:40.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-31 21:57:40.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-31 21:57:40.963 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-31 21:57:42.243 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 21:57:42.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-03-31 21:57:42.314 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8000 (http) with context path ''
+2024-03-31 21:57:43.613 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 21:57:44.910 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2024-03-31 21:57:44.955 INFO  com.lan.train.gateway.config.GatewayApplication   :56   [32m                  [0;39m Started GatewayApplication in 8.732 seconds (process running for 9.321)
+2024-03-31 21:57:44.959 INFO  com.lan.train.gateway.config.GatewayApplication   :18   [32m                  [0;39m start successfully!
+2024-03-31 21:57:44.959 INFO  com.lan.train.gateway.config.GatewayApplication   :19   [32m                  [0;39m Gateway Address: 	http://127.0.0.1:8000
