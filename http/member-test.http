@@ -30,3 +30,56 @@ Content-Type: application/json
 %}
 
 ###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: {{token}}
+
+{
+  "memberId": "1",
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: {{token}}
+
+{
+  "name": "test",
+  "idCard": "123321",
+  "type": "1"
+}
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?page=1&size=10
+Accept: application/json
+token: {{token}}
+
+###
+
+POST http://localhost:8000/member/passenger/save
+Content-Type: application/json
+token: {{token}}
+
+{
+  "memberId": 1767241446253006848,
+  "name": "test2",
+  "idCard": "11111111111111111",
+  "type": "1",
+  "createTime": "2024-05-07 14:14:08"
+}
+
+###
+
+DELETE http://localhost:8000/member/passenger/delete/1787634208206884864
+Accept: application/json
+token: {{token}}
+
+###
+
+

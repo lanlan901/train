@@ -17,7 +17,6 @@ import TheHeaderView from "@/components/the-header";
 import TheSiderView from "@/components/the-sider";
 
 export default defineComponent({
-  name: "mainPage",
   components: {
     TheSiderView,
     TheHeaderView,

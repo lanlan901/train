@@ -5,10 +5,8 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: "welcomePage",
   setup() {
-    return {
-    };
+    return {};
   },
 });
 </script>

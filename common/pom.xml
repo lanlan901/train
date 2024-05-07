@@ -41,6 +41,14 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
             </dependency>
+
+        <!-- 分页插件pagehelper -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.4.6</version>
+        </dependency>
+
         <!-- 集成mybatis-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>

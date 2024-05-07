@@ -70,7 +70,6 @@ export default defineComponent({
       });
     };
     const login = () => {
-      console.log("Current loginForm values:", loginForm);
       axios.post("/member/member/login", loginForm).then(response => {
         let data = response.data;
         if (data.success) {
@@ -84,6 +83,7 @@ export default defineComponent({
         }
       })
     };
+
 
 
     return {

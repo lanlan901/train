@@ -31,5 +31,4 @@ public class MemberInterceptor implements HandlerInterceptor {
         }
         return true;
     }
-
 }

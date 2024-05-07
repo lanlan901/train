@@ -25,7 +25,6 @@ import {notification} from "ant-design-vue";
 import axios from "axios";
 
 export default defineComponent({
-  name: 'PassengerInfo',
   setup() {
     const visible = ref(false);
     const passenger = reactive({

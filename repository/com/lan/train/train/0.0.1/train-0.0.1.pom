@@ -32,6 +32,7 @@
 		<fastjson>1.2.76</fastjson>
 		<hutool-all>5.8.27</hutool-all>
 		<redis.version>3.2.4</redis.version>
+
 	</properties>
 
 	<dependencyManagement>
@@ -81,6 +82,11 @@
 				<version>${redis.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>com.github.pagehelper</groupId>
+				<artifactId>pagehelper-spring-boot-starter</artifactId>
+				<version>1.4.6</version>
+			</dependency>
 
 		</dependencies>
 	</dependencyManagement>
@@ -109,6 +115,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 	</dependencies>
 
 	<build>
